@@ -1,0 +1,19 @@
+insert into airport_amenity
+(airport_id, amenity_id)
+values (7,6);
+
+insert into airport_parks 
+(airport_name, airport_address, airport_city, airport_state, airport_zip, pilot_id)
+values ('Eastern WV Regional Airport', '226 Pilot Way', 'Martinsburg', 'WV', '25405', 4);
+
+insert into airport_amenity
+(airport_id, amenity_id)
+values (8,7);
+
+insert into airport_parks 
+(airport_name, airport_address, airport_city, airport_state, airport_zip, pilot_id)
+values ('Northeast Florida Regional Airport', '4900 US Highway 1, North', 'St Augustine', 'FL', '32095', 11);
+
+insert into airport_amenity
+(airport_id, amenity_id)
+values (10,2);

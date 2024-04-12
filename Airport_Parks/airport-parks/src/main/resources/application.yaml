@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username:  airport_parks
+    password:  airport_parks
+    url:  jdbc:mysql://localhost:3306/airport_parks
+    
+  jpa:  
+    hibernate:  
+      ddl-auto:  none
+    show-sql:  true
+        
+  sql:
+    init:
+      mode:  never
